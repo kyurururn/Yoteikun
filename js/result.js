@@ -1,3 +1,5 @@
+window.scrollTo(0,1)
+
 const board = document.getElementById("image");
 canvasH = screen.height
 canvasW = screen.width

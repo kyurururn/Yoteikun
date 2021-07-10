@@ -1,3 +1,5 @@
+window.scrollTo(0,1)
+
 setInterval('form()',100);
 
 file_url = ""
