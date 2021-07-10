@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <script>
+    </script>
+</head>
+<body>
+	<div class="header">
+  </div>
+  <div class="middle">
+    <div class="middle_box">
+      <div class="middle_box_title">
+        予定くん
+      </div>
+      <div class="middle_box_input">
+        <input class="middle_box_input_form" type="text" id="input">
+      </div>
+      <label class="middle_box_image">
+        <div class="middle_box_image_button" onclick="select_image()" id = "select_image_form">
+          画像を選択
+        </div>
+        <input type="file" accept="image/*" id="select_image">
+      </label>
+      <div class="middle_box_perform">
+        <div class="middle_box_perform_button" onclick="perform()">
+          実行
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="css/result.css">
+</head>
+<body>
+  <div class="back">
+    <img src="img/back.png" class="back_button" onclick="back()">
+  </div>
+  <div class="result">
+    <canvas id="image"></canvas>
+    <img src="" id="show_image">
+  </div>
+  <div class="button">
+    <div class="button_text">
+      <div class="button_text_title">
+        文字色
+      </div>
+      <div class="button_text_color">
+        <input type="color" value="#000000" id="text_color">
+      </div>
+    </div>
+    <div class="button_save" onclick="save()">
+      　↑　<br>長押し
+    </div>
+    <div class="button_bg">
+      <div class="button_bg_title">
+        背景色
+      </div>
+      <div class="button_bg_color">
+        <input type="color" value="#ffffff" id="bg_color">
+      </div>
+    </div>
+  </div>
+  <script src="js/result.js"></script>
+</body>
+</html>

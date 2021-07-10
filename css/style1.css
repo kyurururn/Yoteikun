@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  background-color:ivory;
+}
+
+.header{
+  height:10vh;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+}
+
+.header_info{
+  height:70%;
+  margin-left:2%;
+  margin-right:2%;
+}
+
+.middle{
+  height:70vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.middle_box{
+  height:50%;
+  width:90%;
+  font-family:MS UI Gothic;
+  margin-bottom:50px;
+}
+
+.middle_box_title{
+  height:30%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:4vh;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  src: url('./font/MPLUSRounded1c-Regular.ttf') format('truetype');
+}
+
+.middle_box_input{
+  height:30%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.middle_box_input_form{
+  height:40%;
+  width:80%;
+  font-size:3vh;
+  border-bottom:3px solid black;
+  border-right:none;
+  border-left:none;
+  border-top:none;
+  border-radius:0px;
+}
+
+
+.middle_box_input_form:focus{
+  border-bottom:3px solid midnightblue;
+}
+
+.middle_box_image{
+  height:20%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.middle_box_image_button{
+  height:75%;
+  width:50%;
+  background-color:dimgray;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:3vh;
+  color:white;
+  border-radius:5px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  src: url('./font/MPLUSRounded1c-Regular.ttf') format('truetype');
+}
+
+#select_image{
+  display:none;
+}
+
+.middle_box_perform{
+  height:20%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.middle_box_perform_button{
+  height:75%;
+  width:30%;
+  background-color:dimgray;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:3vh;
+  color:white;
+  border-radius:5px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  src: url('./font/MPLUSRounded1c-Regular.ttf') format('truetype');
+}
