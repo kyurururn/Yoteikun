@@ -87,7 +87,3 @@ text_color_change.addEventListener('change', text_color_change_1);
 
 let bg_color_change = document.getElementById('bg_color');
 bg_color_change.addEventListener('change', bg_color_change_1);
-
-function back(){
-  window.location.href = "index.html";
-}

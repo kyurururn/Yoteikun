@@ -63,3 +63,10 @@ document.getElementById("select_image").addEventListener('change', function(e){
   }
   reader.readAsDataURL(file_url)
 });
+
+function info(){
+  let result = window.confirm("使い方ページに飛びますか？")
+  if(result){
+    window.location.href = "https://github.com/kyurururn/Yoteikun"
+  }
+}
