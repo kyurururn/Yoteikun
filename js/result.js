@@ -6,8 +6,8 @@ canvasW = screen.width
 board.height = canvasH
 board.width = canvasW
 
-document.getElementById("show_image").height = canvasH / 1.5
-document.getElementById("show_image").width = canvasW / 1.5
+document.getElementById("show_image").height = canvasH / 1.55
+document.getElementById("show_image").width = canvasW / 1.55
 
 const ctx = board.getContext("2d");
 
