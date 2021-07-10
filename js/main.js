@@ -45,7 +45,7 @@ function perform(){
       localStorage.setItem("height","");
       localStorage.setItem("width","");
     }
-    window.location.href = "result.html";
+    location.href = "result.html";
   }
 }
 
