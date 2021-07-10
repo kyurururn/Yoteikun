@@ -1,5 +1,5 @@
 # 予定くん
-https://kyurururn.github.io/Yoteikun/index.html
+https://kyurururn.github.io/yoteikun/index.html
 ## 使い方  
 1.文字を入力する  
 2.画像を選択する（任意）  
