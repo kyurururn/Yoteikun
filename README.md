@@ -16,3 +16,7 @@ https://kyurururn.github.io/yoteikun/index.html
 ## Androidを使用している方
 https://dply.me/ex85g6  
 このURLからAndroid版をダウンロードすることができます。
+
+---  
+このソフトウェアはMITライセンスの下でリリースされています。"LICENSE.txt"をご覧ください。
+This software is released under the MIT License, see LICENSE.txt.
