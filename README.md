@@ -18,5 +18,5 @@ https://dply.me/ex85g6
 このURLからAndroid版をダウンロードすることができます。
 
 ---  
-このソフトウェアはMITライセンスの下でリリースされています。"LICENSE.txt"をご覧ください。
+このソフトウェアはMITライセンスの下でリリースされています。"LICENSE.txt"をご覧ください。  
 This software is released under the MIT License, see LICENSE.txt.
